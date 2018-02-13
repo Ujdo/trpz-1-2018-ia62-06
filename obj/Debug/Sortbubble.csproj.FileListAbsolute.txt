@@ -1,0 +1,6 @@
+c:\users\niki4\documents\visual studio 2017\Projects\Sortbubble\Sortbubble\obj\Debug\Sortbubble.csprojResolveAssemblyReference.cache
+c:\users\niki4\documents\visual studio 2017\Projects\Sortbubble\Sortbubble\bin\Debug\Sortbubble.exe.config
+c:\users\niki4\documents\visual studio 2017\Projects\Sortbubble\Sortbubble\bin\Debug\Sortbubble.exe
+c:\users\niki4\documents\visual studio 2017\Projects\Sortbubble\Sortbubble\bin\Debug\Sortbubble.pdb
+c:\users\niki4\documents\visual studio 2017\Projects\Sortbubble\Sortbubble\obj\Debug\Sortbubble.exe
+c:\users\niki4\documents\visual studio 2017\Projects\Sortbubble\Sortbubble\obj\Debug\Sortbubble.pdb
