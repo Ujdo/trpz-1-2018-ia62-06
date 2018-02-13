@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sortbubble
+namespace trpz1_01
 {
-    class SortetContainer
+    class Program
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
-            Console.WriteLine("Сколько чисел будем сортировать?");
+            Console.WriteLine("Ведите количество чисел для сортировки.");
             int N = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите числа для сортировки:");
             int[] mas = new int[N];
@@ -18,30 +18,14 @@ namespace Sortbubble
             {
                 mas[i] = Convert.ToInt32(Console.ReadLine());
             }
-            BubbleSort(mas);
-            Console.WriteLine("После сортировки:");
+            SortetContainer.ViborSort(mas);
+            Console.WriteLine("Отсортированный массив:");
             for (int i = 0; i < mas.Length; i++)
             {
                 Console.WriteLine(mas[i]);
             }
             Console.ReadLine();
         }
-        static int[] BubbleSort(int[] mas)
-        {
-            int temp;
-            for (int i = 0; i < mas.Length; i++)
-            {
-                for (int j = i + 1; j < mas.Length; j++)
-                {
-                    if (mas[i] > mas[j])
-                    {
-                        temp = mas[i];
-                        mas[i] = mas[j];
-                        mas[j] = temp;
-                    }
-                }
-            }
-            return mas;
-        }
+
     }
 }
